@@ -35,9 +35,7 @@ h2 {
 
 
 .interests {
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
+    text-align: center;
 }
 
 
