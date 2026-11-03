@@ -27,13 +27,12 @@ p {
     background-color: #e6d6ff;
 }
 
-/* This changes the headings for my interests */
 
 h2 {
     color: purple;
 }
 
-/* This puts my interests next to each other */
+
 
 .interests {
     display: flex;
@@ -41,7 +40,7 @@ h2 {
     gap: 20px;
 }
 
-/* This makes each interest section look nicer */
+
 
 .interests div {
     background-color: #f5f0ff;
@@ -51,7 +50,7 @@ h2 {
     width: 30%;
 }
 
-/* I sued this to make the pic smaller */
+
 
 img {
     width: 250px;
