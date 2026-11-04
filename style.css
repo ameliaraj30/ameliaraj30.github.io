@@ -8,38 +8,30 @@ h1 {
     text-align: center;
 }
 
+h2 {
+    color: purple;
+}
+
 p {
     color: purple;
     font-size: 18px;
 }
 
-/* CSS comments are written enclosed with these characters */
-
+/* the heading thing */
 .myclass {
     background-color: #b1b2e3;
     text-align: center;
     padding: 10px;
 }
 
-#unique-id {
-    font-family: "Trebuchet MS", Arial, sans-serif;
-}
-    background-color: #e6d6ff;
-}
-
-
-h2 {
-    color: purple;
-}
-
-
-
+/* interests */
 .interests {
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
 }
 
-
-
+/* the changes for each section */
 .interests div {
     background-color: #f5f0ff;
     padding: 15px;
@@ -48,11 +40,15 @@ h2 {
     width: 30%;
 }
 
-
-
+/* smaller for pics */
 img {
     width: 250px;
     max-width: 100%;
     height: 200px;
     object-fit: contain;
+}
+
+/* fave tv show page */
+#unique-id {
+    background-color: #e6d6ff;
 }
